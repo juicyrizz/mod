@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Justine Olavario | Portfolio</title>
+    <link rel="icon" type="image/png" href="resources/Image(1).jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <canvas id="raining-juicy"></canvas>
+    <audio id="background-music"></audio>
+
+    <div class="profile-card">
+        <img src="resources/Image(2).jpg" alt="Profile Image" class="profile-Image">
+        
+        <div class="profile-name-container">
+            <h1 class="profile-name" data-text="CARL JUSTINE B. OLAVARIO">CARL JUSTINE B. OLAVARIO</h1>
+        </div>
+        
+        <p class="profile-status"></p>
+
+        <div class="social-links">
+             <a href="https://www.facebook.com/cjustineolavario" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://github.com/ceed-jay" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://discord.gg/bhtqe7JHsg" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        
+        <div class="navigation-links">
+            <a href="about.html" class="nav-button">[ABOUT ME]</a>
+        </div>
+
+        <p id="song-title">Awaiting Signal...</p>
+
+        <div class="audio-controls">
+            <i class="fa-solid fa-backward-step" id="prev-btn"></i>
+            <i class="fa-solid fa-play" id="play-pause-btn"></i>
+            <i class="fa-solid fa-forward-step" id="next-btn"></i>
+        </div>
+
+        <div class="volume-control">
+            <i class="fa-solid fa-skull"></i>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+            <i class="fa-solid fa-skull-crossbones"></i>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
